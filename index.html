@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../sakyre2.0/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+    </style>
+    <link rel="shortcut icon" href="../sakyre2.0/img/favicon/favicon-01.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <title>Sakyre</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <!-- row1 -->
+        <div class="row">
+            <div class="col-5">
+                <!-- <img src="../sakyre2.0/img/SAKYRE.png"   alt=""> -->
+                <img src="../sakyre2.0/img/Cover1.png" height="650" id="home" width="460" alt="">
+            </div>
+            <div class="col-2"></div>
+
+            <div class="col-5">
+
+
+
+                <!-- navigasi bar landing page -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="navbar-nav">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                            <ul class="mynavbar navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item ">
+                                    <a class="nav-link active" aria-current="page" href="../sakyre2.0/index.html">Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                                <li class="nav-item flex-fill ">
+                                    <a class="btn-login nav-link" href="../sakyre2.0/login.php">Log in</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+                <!-- Caption + Headline -->
+                <h1>
+                    <section class="caption">Bookshop </section>
+                    SAKYRE
+                </h1>
+
+                <div class="row">
+                    <div class="col ml-0">
+                        <p>Providing books created by local authors,<br> at affordable prices, and <br> with high quality <br> </p>
+
+                    </div>
+
+                    <div class="col-1"></div>
+                </div>
+
+
+
+                <!-- col 5 -->
+            </div>
+        </div>
+
+        <!-- row2 -->
+        <div class="row ml-0">
+
+
+            <div class="col-6" id="about">
+                <div class="container mt-4 py-3 px-0">
+                    <div class="container-fluid">
+
+
+
+                        <h5>WHO WE ARE!</h5>
+                        <p width="350">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aut molestias repellendus quisquam quasi soluta iusto! In, unde hic! Ratione sit repellendus nobis iste nulla? Accusamus aliquid natus, <br><br> eius placeat temporibus
+                            quidem, fugiat atque odio quaerat provident eveniet? A soluta autem, minima distinctio numquam ipsum, culpa accusamus voluptatem aspernatur doloribus inventore incidunt enim nisi nemo maiores obcaecati placeat minus. Vel ea
+                            deleniti minus natus consectetur omnis quae vitae beatae, rerum sunt eius magnam amet saepe
+                            <br><br> voluptatem ex quibusdam praesentium ad eaque autem, voluptates cupiditate ipsum quas veritatis temporibus. Asperiores consectetur in labore. Dicta, voluptas, porro reiciendis aspernatur soluta nobis dolore odit nisi
+                            ut omnis sint quae. Eum quisquam dolorem excepturi pariatur facere consequatur, quam eius tenetur vel facilis vero esse illum vitae sint iste suscipit ab culpa rerum rem laboriosam nobis totam! Non odio modi<br><br> quisquam
+                            labore tempore quos ratione consequatur rem dolorem velit nihil ad et recusandae, quasi aspernatur?
+                        </p>
+                        <!-- <img src="../sakyre2.0/img/SAKYRE.png"   alt=""> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-2"></div> -->
+
+            <div class="col-5 ml-0 mx-0">
+                <div class="container">
+                    <img src="../sakyre2.0/img/Cover2.png" height="768" width="607" alt="">
+                    <!-- col-5 row2 -->
+                </div>
+
+            </div>
+            <!-- end row2 -->
+        </div>
+        <!-- end container -->
+
+        <div class="row mb-5 pb-5">
+
+
+            <div class="col-5">
+                <br><br><br><br>
+                <img src="../sakyre2.0/img/Cover3.png" height="550" width="530" class="pt-3" alt="">
+
+            </div>
+            <div class="col-2"></div>
+
+
+            <div class="col-5" id="contact">
+                <br><br><br><br><br><br><br><br><br>
+                <h5>Contact Us</h5>
+                <p width="350" height="200">
+                    <br><br> Rizky Joan @instgram +62 xxx xxxx xxx<br><br> Samuel Steven @instagram +62 xxx xxxx xxx <br><br> Reza sitorus @instagram +62 xxx xxxx xxx
+                </p>
+                <!-- col-5 row2 -->
+            </div>
+
+            <!-- end row2 -->
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function scrollWin() {
+            window.scrollBy(0, 300);
+        }
+    </script>
+
+
+    <footer class="footer py-5 mt-5 text-light bg-dark">
+        <div class="text-center">
+            <p>copyright &copy sakyre | 2021</p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
